@@ -102,7 +102,7 @@ class InteractiveGame():
                 return 1000 * resource.getrusage(resource.RUSAGE_SELF).ru_utime
         move_start = curr_time_millis()
         
-        def time_left(time_limit = 1000):
+        def time_left(time_limit = 5030):
             # print("Limit: "+str(time_limit) +" - "+str(curr_time_millis()-move_start))͏󠄂͏️͏󠄌͏󠄎͏󠄎͏󠄊͏󠄁
             return time_limit - (curr_time_millis() - move_start)
 
