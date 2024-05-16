@@ -255,7 +255,7 @@ ig2 = InteractiveGame(CustomPlayer2(), show_legal_moves=True)
 
 
 # ---
-#   ### Level 3
+#   ## Level 3
 #   ### Iterative Deepening + Alphabeta pruning + optimized evaluation function
 
 # In[30]:
